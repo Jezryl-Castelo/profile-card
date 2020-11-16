@@ -1,0 +1,57 @@
+/*body {
+    background-image: url("./images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    margin: 0 auto; /*centers card*/
+    width: 30%;
+    display: flex;
+    /*align-items: center; */
+    flex-direction: column;
+    background-color: rgb(234, 247, 247);
+    border-radius: 30px;
+}
+
+.background {
+  width: 100%;
+}
+
+.card-top {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    position: absolute;
+    margin: 0 auto;
+    top: 18%;
+}
+
+
+.card-mid {
+    margin: 0 auto; /*centers card*/
+    display: flex;
+    flex-direction: column;
+    width: 60%; /*adds more space around the text */ 
+    align-items: center;
+    background-color: cadetblue;
+
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: cornflowerblue;
+}
