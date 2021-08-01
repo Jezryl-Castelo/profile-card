@@ -1,0 +1,48 @@
+.header-container {
+    display: grid;
+    height: 600px;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 5% 25% 20%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-img {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
+}
+
+.header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.6rem;
+    align-self: end;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+.header-description {
+    grid-column: 1 / 2;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.tags {
+    grid-row: 4 / 5;
+    height: 60px;
+    align-content: center;
+}
+
+.wifi {
+   width: 68px;
+   padding: 0px 14px 8px 14px;
+}
+.tag {
+    height: 100%;
+    padding: 0px 14px 0 14px;
+}
+
